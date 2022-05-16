@@ -10,6 +10,8 @@ import com.example.slider.databinding.ActivitySecondBinding
 class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val actionBar=supportActionBar
+        actionBar!!.title="Second Activity"
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivitySecondBinding>(this, R.layout.activity_second)
         binding.secondActivityNextButton.setOnClickListener{

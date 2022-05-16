@@ -24,26 +24,29 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-        android:id="@+id/second_activity_next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="@string/next_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/second_activity_title"
-        app:layout_constraintVertical_bias="0.473" />
+            android:id="@+id/second_activity_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/next_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/second_activity_title"
+            android:backgroundTint="@color/teal_700"/>
 
         <Button
             android:id="@+id/second_activity_previous_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:text="@string/preview_button"
             android:textAlignment="center"
             app:layout_constraintBaseline_toBaselineOf="@+id/second_activity_next_button"
             app:layout_constraintEnd_toStartOf="@+id/second_activity_next_button"
-            app:layout_constraintHorizontal_bias="0.15"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="@color/teal_700"/>
     </androidx.constraintlayout.widget.ConstraintLayout></layout>

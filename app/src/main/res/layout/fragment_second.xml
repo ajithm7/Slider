@@ -36,7 +36,8 @@
            app:layout_constraintEnd_toEndOf="parent"
            app:layout_constraintHorizontal_bias="1.0"
            app:layout_constraintStart_toStartOf="parent"
-           app:layout_constraintTop_toBottomOf="@+id/second_fragment_title" />
+           app:layout_constraintTop_toBottomOf="@+id/second_fragment_title"
+           android:backgroundTint="@color/teal_700"/>
 
        <Button
            android:id="@+id/previous_button"
@@ -47,7 +48,8 @@
            app:layout_constraintBaseline_toBaselineOf="@+id/second_next_button"
            app:layout_constraintEnd_toStartOf="@+id/second_next_button"
            app:layout_constraintHorizontal_bias="0.15"
-           app:layout_constraintStart_toStartOf="parent" />
+           app:layout_constraintStart_toStartOf="parent"
+           android:backgroundTint="@color/teal_700"/>
    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

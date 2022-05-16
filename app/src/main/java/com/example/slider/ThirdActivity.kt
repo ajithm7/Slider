@@ -9,6 +9,8 @@ import com.example.slider.databinding.ActivityThirdBinding
 class ThirdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val actionBar=supportActionBar
+        actionBar!!.title="Third Activity"
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivityThirdBinding>(this, R.layout.activity_third)
 
